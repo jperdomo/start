@@ -1,2 +1,3 @@
 #/bin/bash
-apt install -y lm_sensors xsensors
+apt install -y xsensors
+sensors-detect --auto
